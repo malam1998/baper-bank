@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(107,114,128);
+}
+
+.h1-tittle{
+    font-size: 40px;
+    color: rgb(65, 65, 230);
+    font-weight: 1000;
+}
+
+/* #transaction-area{
+    padding: 50px 20px;
+} */
+
+.line1{
+    padding: 50px 20px;
+}
+
+.deposit{
+    background-color: rgb(74,222,128);
+}
+
+.balance{
+    background-color: rgb(254,129,184);
+}
+
+.withdraw{
+    background-color: rgb(202, 98, 8);
+}
+
+.status{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.input-part{
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+input::placeholder{
+    width: 100% !important;
+    padding: 5px 8px;
+}
