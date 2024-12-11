@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(to left, rgb(90, 90, 95),silver);
+}
+
 .container{
     max-width: 100%;
-    width: 1000px;
+    width: 700px;
     margin: 0 auto;
+}
+
+.hi-tag{
+    color: #214dbd;
+    font-weight: 1000;
 }
 
 #login-section{
@@ -15,8 +24,13 @@
 }
 
 .input-area{
+    background: linear-gradient(to left, darkblue, skyblue);
     padding: 30px;
     margin-top: 50px;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.btn{
+    background-color: coral;
 }
