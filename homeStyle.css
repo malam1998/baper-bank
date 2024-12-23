@@ -44,14 +44,20 @@ body{
 
 .input-part{
     background-color: rgb(15, 139, 228);
-    width: 100%;
+    justify-content: center;
+    /* width: 85%; */
     padding: 30px;
-    margin-top: 50px;
-    border-radius: 5px;
+    /* margin-top: 50px; */
+    border-radius: 6px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .input-field{
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+h4{
+    font-weight: bolder !important;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
 
 <head>
     <meta charset="UTF-8">
@@ -13,18 +13,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <div id="login-section">
-            <h1 class="text-center text">Welcome To Baper Bank</h1>
+    <div class="">
+        <div id="login-section" class="md:w-full w-1/4 lg:w-2/3 m-auto">
+            <h1 class="text-center font-bold">Welcome To Baper Bank</h1>
 
-            <div class="input-area">
-                <h3>Login</h3>
-                <br>
-                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
-                <br>
-                <input type="password" id="password" class="form-control" placeholder="Enter your password" required>
-                <br>
-                <button type="button" class="btn btn-success" id="login-btn">Login</button>
+            <div class="flex md:mt-14">
+                <div class="input-area w-full">
+                    <h3>Login</h3>
+                    <br>
+                    <input type="email" id="email" class="form-control w-full p-2 rounded"
+                        placeholder="Enter your email" required>
+                    <br>
+                    <input type="password" id="password" class="form-control w-full p-2 rounded"
+                        placeholder="Enter your password" required>
+                    <br>
+                    <button type="button" class="btn btn-success" id="login-btn">Login</button>
+                </div>
             </div>
         </div>
     </div>
